@@ -1,0 +1,15 @@
+sensitive_keywords:
+  # values полностью заменяет дефолтный список.
+  # values:
+  #   - password
+  #   - token
+
+  # add дополняет список.
+  add:
+    - session_id
+    - refresh-token
+
+  # remove удаляет ключи из базового/кастомного списка.
+  remove:
+    - token
+    - auth

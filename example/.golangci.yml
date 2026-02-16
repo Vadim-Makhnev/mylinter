@@ -1,0 +1,15 @@
+version: "2"
+
+linters:
+  default: none
+  enable:
+    - mylinter
+  settings:
+    custom:
+      mylinter:
+        type: goplugin
+        path: ./bin/mylinter.so
+        description: log linter
+        original-url: github.com/Vadim-Makhnev/mylinter
+        settings:
+          config: ./example/mylinter.yml

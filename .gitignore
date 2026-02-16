@@ -1,0 +1,13 @@
+# Build artifacts
+bin/
+*.so
+*.test
+
+# Coverage and profiling
+cover.out
+*.prof
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
